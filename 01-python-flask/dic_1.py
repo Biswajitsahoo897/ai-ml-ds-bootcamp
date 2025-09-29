@@ -1,7 +1,8 @@
 info={"name":'conqueror','age':19, 'college':'CGU', 'ELIGIBLE':True}
 print(info['name'])
-print(info["name"])
-print(info.get('name'))
+print(info['ELIGIBLE'])
+print(info["name"])  #bracket notation
+print(info.get('name')) # The method
 # they are exactly the same but ..IF there's no key with name then it returns none but the upper one throws an error occuired
 
 # info = {'name':'Karan', 'age':19, 'eligible':True}

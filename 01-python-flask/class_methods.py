@@ -7,8 +7,7 @@ class Employee:
     def changeCompany(cls, newCompany):
         cls.company = newCompany
         # by using the class methods we can change the company name by overcoming instance variable 
-
-        #         To define a class method, you simply use the
+        # To define a class method, you simply use the
         # "@classmethod" decorator before the method definition. The
         # first argument of the method should always be "cls,"which
         # represents the class itself. Here is an example of how to

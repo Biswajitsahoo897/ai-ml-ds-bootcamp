@@ -3,7 +3,7 @@ class person:
     occupation='Web Developer'
     def info(self):
         print(f"{self.name} is a {self.occupation}.")
-a =person()
+a =person() # creating an object of the class person
 b=person()
 # a.name= "lorem"
 b.name= "lorem"
@@ -12,4 +12,4 @@ b.occupation="site manager"
 print(a.name)   
 a.info()   
 b.info()  
-# ther self 
+# there self refers to the instance calling the method

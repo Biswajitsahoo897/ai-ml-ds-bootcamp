@@ -16,7 +16,7 @@
 
 # # in this way we can print all the parameter value inside the funtion itself
 
-string="Dilip~20~90120"
+string="Conqueror~20~90120"
 print(string.split("~")[0])
 print(string.split("~")[1])
 print(string.split("~")[2])

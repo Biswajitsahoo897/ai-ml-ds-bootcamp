@@ -32,8 +32,8 @@ print(obj._age)
 obj._funName()
 
 # calling by object  of class Subject
-print(obj1._age)
-print(obj1._funName())
+# print(obj1._age)
+# print(obj1._funName())
 
 
 

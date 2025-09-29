@@ -1,3 +1,4 @@
-nc(4)
-# func(2)
-# func(1)
+info={"name":'conqueror','age':19, 'college':'CGU', 'ELIGIBLE':True}
+print(info['name'])
+print(info["name"])
+print(info.get('name'))

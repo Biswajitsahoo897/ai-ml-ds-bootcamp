@@ -2,15 +2,16 @@ info = {'name':'Karan', 'age':19, 'eligible':True}
 print(info)
 info.update({'age':20})
 info.update({'DOB':2001})
-print(info)
+info.update({'eligible':False})
+print(f"\nAfter Update : {info}\n")
 # 2nd one
-# info.clear()
+# info.clear() #clears the entire dictionary
 # print(info)
 # # 3rd one
 # info.pop('name')
 # print(info)
-# info.popitem()
+# info.popitem() # removes the last item
 # print(info)
 # 4th one
-del info['eligible']
+del info['eligible'] # deletes the key value pair
 print(info)
