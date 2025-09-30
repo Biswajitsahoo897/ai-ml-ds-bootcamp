@@ -14,7 +14,7 @@ value =int(input('Enter your choice:'))
 
 def first_code():
     # print("there is nothing new")
-    print( "this is the only coid")
+    print( "this is the only code")
 
 
 def second_decode():

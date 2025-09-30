@@ -1,4 +1,4 @@
-# funtion caching is a technique for improving the performance a prgram by storing the results of funtion call so that you can reuse 
+# funtion caching is a technique for improving the performance of a program by storing the results of funtion call so that you can reuse 
 # the results instead of recomputing then every single time the function is called.
 
 

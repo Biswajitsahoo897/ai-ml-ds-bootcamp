@@ -35,9 +35,10 @@ c.details()
 # only one argument, self, in the constructor, it is known as a Default
 # constructor.
 
-class Detailes:
-    def _init_(self):
+class Details:
+    def __init__(self):
         print("animal Crab belongs to Crustaceans group")
 
-obj1=Detailes()
+obj1=Details()
+
 
