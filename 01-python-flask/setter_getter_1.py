@@ -53,3 +53,46 @@ obj_1var.ten_value=34
 print(obj_1var.ten_value)
 obj_1var.show()        
 # print(obj_1var.show)        
+
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    def first_name(self):
+        f_name=self.name.split(" ")
+        return f_name[0]
+    def set_first_name(self,new_name):
+        f_name=self.name.split(" ")
+        self.name=f"{new_name} {f_name[1]}"
+
+# # without using getter and setter
+# e=Employee("Hrithik Roshan", 50000)
+# print(e.first_name())  
+# e.set_first_name("Pankaj")
+# print(e.first_name())
+
+# using getter and setter
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    @property
+    #Getter
+    def first_name(self):
+        f_name=self.name.split(" ")
+        return f_name[0]
+    
+    @first_name.setter
+    # setter , name must be same as the getter name
+    def first_name(self,new_name):
+        f_name=self.name.split(" ")
+        self.name=f"{new_name} {f_name[1]}"
+
+e=Employee("Hrithik Roshan", 50000)
+print(e.first_name)
+# it is actually a function but we can access it like an attribute
+# because of the @property decorator
+# Encapsulation
+e.first_name="Pankaj"
+print(e.name)
