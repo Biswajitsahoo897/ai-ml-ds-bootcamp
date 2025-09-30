@@ -19,3 +19,24 @@ str1="heisagoodboy"
 print(str1.find("is"))
 print(str1.isalnum())
 
+
+
+text="hello!! , Python is a good programming language"
+print(text.index("Python"))
+print(text.lower())
+print(text.upper()) 
+
+# Padding and aligning strings
+print(f"{text:>50}") # right align
+print(f"{text:<50}") # left align
+print(f"{text:^50}") # center align
+# The meaning of 50 is the total width of the string including the original string
+#  and the padding spaces
+
+# character encoding and decoding
+print(ord('a')) # 97
+print(ord('A')) # 65
+print(chr(98)) # b
+
+pi=3.141592653589793
+print(f"the value of pi is approximately {pi:.4f}")
