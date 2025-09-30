@@ -22,7 +22,7 @@ It covers **Python programming**, **data analysis**, **visualization**, **machin
 ```
 ├── 📂 data/ # Datasets used in various projects and exercises
 ├── 📂 notebooks/ # Jupyter notebooks for exploration, exercises, and projects
-│ ├── 📂 01-complete-python/
+│ ├── 📂 01-python-flask/
 │ ├── 📂 02-numpy/
 │ ├── 📂 03-pandas/
 │ ├── 📂 04-matplotlib/
