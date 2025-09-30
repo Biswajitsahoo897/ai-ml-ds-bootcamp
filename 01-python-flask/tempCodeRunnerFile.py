@@ -1,8 +1,5 @@
-text="hello!! , Python is a good programming language"
-print(text.index("Python"))
-print(text.lower())
-print(text.upper()) 
-
-# Padding and aligning strings
-print(f"{text:>50}") # right align
-print(f"{text:<10}") # left align
+a=int(input("Enter a number : "))
+b=int(input("Enter another number: "))
+print(f"The division of {a} and {b} is {a/b}")
+if b==0:
+    raise ZeroDivisionError("b should not be zero")
