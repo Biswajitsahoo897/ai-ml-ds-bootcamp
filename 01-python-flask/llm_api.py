@@ -24,11 +24,8 @@
 # for choice in response.choices:
 #     print(choice.message.content)
 
-
-key="here is the api key "
-
 from openai import OpenAI
-client = OpenAI(api_key=key)
+client = OpenAI() # api_key=key(removed)
 
 response = client.responses.create(
     model="gpt-5",
