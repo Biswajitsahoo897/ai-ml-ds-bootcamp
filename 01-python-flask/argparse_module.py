@@ -31,4 +31,5 @@ print(args.output, type(args.output))
 download_file(args.url, args.output)
 
 from os import system
-system("say hello world!")
+system("echo hello world!") # Windows
+system("say hello world!") # on MacOs
