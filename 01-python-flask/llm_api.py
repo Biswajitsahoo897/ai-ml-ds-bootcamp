@@ -1,6 +1,4 @@
-# removed the key variable
 # from openai import OpenAI
-# client = OpenAI()
 
 # response = client.chat.completions.create(
 #   model="gpt-4o",
@@ -25,7 +23,7 @@
 #     print(choice.message.content)
 
 # from openai import OpenAI
-# client = OpenAI() 
+#  
 
 # response = client.responses.create(
 #     model="gpt-5",
