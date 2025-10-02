@@ -1,5 +1,5 @@
 def cube(a):
-    return a*a*a
+     return a*a*a
 list_1=[1,4,2,8,9,12,3.45,20]
 new_list_1=[]
 # for item_list in list_1:
@@ -26,8 +26,12 @@ print(newnewl2)
 # the predicate argument is a funtion that returns a boolean value and is applied to the each elements in the iterable 
 # argument can be list , tuple or any othe riterable object.
 
-
+# Example 1
 num=[1,3,5,12,10]
 evens=filter(lambda x: x%2==0 , num)
 print(list(evens))
 
+# Example 2
+a=[1,3,5,77,39]
+new_a=list(filter(lambda x:x>9,a))
+print(new_a)
