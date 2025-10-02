@@ -25,7 +25,7 @@
 #     print(choice.message.content)
 
 # from openai import OpenAI
-# client = OpenAI() # api_key=key(removed)
+# client = OpenAI() 
 
 # response = client.responses.create(
 #     model="gpt-5",
