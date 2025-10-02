@@ -1,7 +1,9 @@
-"""a=90
+"""
+a=90
 b=34
-print("a+b=",a+b)"""
-#this is the single line comments out
+print("a+b=",a+b)
+"""
+#this is the multiline comment out
 a=90
 b=45
 print("a+b=",a+b)
