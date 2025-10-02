@@ -1,10 +1,4 @@
 import os
-folder=os.listdir("data_folder")
-print(folder)
-
-for i in folder:
-    print(os.listdir(f"data_folder/{i}"))
-
 
 print('currently working directory before was: ',os.getcwd())
 os.chdir("/Users/biswa/onedrive")
@@ -17,3 +11,6 @@ print('currently working directory after is: ',os.getcwd())
 # import os
 # print(os.name)
 # os.mkdir()
+
+os.rmdir("sample.txt") # it will remove the empty directory
+os.remove("sample.txt") # it will remove the file
