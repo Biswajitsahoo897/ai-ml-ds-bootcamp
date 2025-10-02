@@ -1,6 +1,6 @@
-# key="here is ur api key "
+# removed the key variable
 # from openai import OpenAI
-# client = OpenAI(api_key=key)
+# client = OpenAI()
 
 # response = client.chat.completions.create(
 #   model="gpt-4o",
@@ -24,13 +24,13 @@
 # for choice in response.choices:
 #     print(choice.message.content)
 
-from openai import OpenAI
-client = OpenAI() # api_key=key(removed)
+# from openai import OpenAI
+# client = OpenAI() # api_key=key(removed)
 
-response = client.responses.create(
-    model="gpt-5",
-    tools=[{"type": "web_search"}],
-    input="What was a positive news story from today?"
-)
+# response = client.responses.create(
+#     model="gpt-5",
+#     tools=[{"type": "web_search"}],
+#     input="What was a positive news story from today?"
+# )
 
-print(response.output_text)
+# print(response.output_text)
