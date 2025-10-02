@@ -26,7 +26,7 @@
 #     print(choice.message.content)
 
 
-key="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"
+key="here is the api key "
 
 from openai import OpenAI
 client = OpenAI(api_key=key)
