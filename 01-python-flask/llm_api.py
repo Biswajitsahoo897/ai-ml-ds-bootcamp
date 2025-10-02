@@ -1,0 +1,40 @@
+# key  ="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"
+
+# from openai import OpenAI
+# client = OpenAI(api_key=key)
+
+# response = client.chat.completions.create(
+#   model="gpt-4o",
+#   messages=[
+#         {
+#             "role": "user",
+#             "content": "complete this chat: Jack: Hey; Jill: How are you?; Jack: now what?; Jill:  ",
+#         }
+#   ],
+#   response_format={
+#     "type": "text"
+#   },
+#   temperature=1,
+#   max_completion_tokens=2048,
+#   top_p=1,
+#   frequency_penalty=0,
+#   presence_penalty=0
+# )
+
+
+# for choice in response.choices:
+#     print(choice.message.content)
+
+
+key="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"
+
+from openai import OpenAI
+client = OpenAI(api_key=key)
+
+response = client.responses.create(
+    model="gpt-5",
+    tools=[{"type": "web_search"}],
+    input="What was a positive news story from today?"
+)
+
+print(response.output_text)
