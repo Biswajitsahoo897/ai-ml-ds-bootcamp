@@ -8,8 +8,10 @@ def hello_world():
         "alex":34,
         "Joe":80,
         "Lily":60,
-        "Raj":90,
-        "Max":12
+        "Raj":92,
+        "Max":12,
+        "Jesse":100,
+        "Robert":90
     }
     # Jinja2  basic template    
     return render_template("index.html",marks=marks)

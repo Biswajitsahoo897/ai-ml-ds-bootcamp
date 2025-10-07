@@ -7,9 +7,20 @@
 </head>
 <body>
     <ul>
-        <li>The marks of alex are {{marks['alex']}}</li>
+        {#This is a comment in jinja#}
+
+        <!-- <li>The marks of alex are {{marks['alex']}}</li>
         <li>The marks of Max are {{marks['Max']}}</li>
-        <li>The marks of Joe are {{marks['Joe']}}</li>
+        <li>The marks of Joe are {{marks['Joe']}}</li> -->
+        {% for item in marks %}
+
+            <li>The marks of {{item}} are {{marks[item]}}
+             {% if marks.get(item)>80 %}
+                <span> GOOD </span>
+             {% endif %}
+            </li>
+        {% endfor %}
+        
     </ul>
 </body>
 </html>
