@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\"device-width\", initial-scale=1.0">
+    <meta name="viewport" content="width=\" device-width\", initial-scale=1.0">
     <title></title>
 </head>
+
 <body>
     <ul>
         {#This is a comment in jinja#}
@@ -14,13 +16,14 @@
         <li>The marks of Joe are {{marks['Joe']}}</li> -->
         {% for item in marks %}
 
-            <li>The marks of {{item}} are {{marks[item]}}
-             {% if marks.get(item)>80 %}
-                <span> GOOD </span>
-             {% endif %}
-            </li>
+        <li>The marks of {{item}} are {{marks[item]}}
+            {% if marks.get(item)>80 %}
+            <span> GOOD </span>
+            {% endif %}
+        </li>
         {% endfor %}
-        
+
     </ul>
 </body>
+
 </html>
