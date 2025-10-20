@@ -23,8 +23,8 @@ It covers **Python programming**, **data analysis**, **visualization**, **machin
 ├── 📂 data/ # Datasets used in various projects and exercises
 ├── 📂 notebooks/ # Jupyter notebooks for exploration, exercises, and projects
 │ ├── 📂 01-python-flask/
-│ ├── 📂 02-numpy/
-│ ├── 📂 03-pandas/
+│ ├── 📂 02-pandas/
+│ ├── 📂 03-numpy/
 │ ├── 📂 04-matplotlib/
 │ ├── 📂 05-scikit-learn/
 │ ├── 📂 06-supervised-learning/
